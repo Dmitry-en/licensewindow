@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    margin-top: 100px;
+    }
+.body{
+    width: 500px;
+    border: 5px solid  grey;
+}
+
+ .block_row_select{
+     display: flex;
+     justify-content: center;
+ }
+
+li{
+    list-style-type: none;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+
+.radio_input{
+    position: absolute;
+}
+
+.radio_lable {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 25px;
+    font-size: 1rem;
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+}
+
+
+
+.block_item{
+    margin-right: 30px;
+}
+
+.block_select {
+    position: relative;
+    margin-bottom: 1rem;
+    margin-top: 0.8rem;
+}
+
+.block_item2 select {
+    padding: 0.1rem 1rem;
+    background: none;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 1rem;   
+    border-radius: 3px;
+}
+
+.button{
+    color: white;
+    border: none;
+    background-color: rgb(82, 224, 82);
+    text-align: center;
+    width: 135px;
+    height: 35px;
+    border-radius: 17.5px;
+
+}
