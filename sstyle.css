@@ -7,25 +7,6 @@
 	font-style: normal;
 }
 
-span, p{
-    color: rgb(134, 134, 134);
-    font-stretch: ultra-condensed;
-}
-
-.radio_block, .total{
-    font-family: 'Conv_BebasNeue Regular', Arial, sans-serif;
-    font-weight: bold;
-}
-
-.colortext{
-    color: rgb(52, 225, 255);
-}
-
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin-top: 70px;
-    }
 .body{
     width: 450px;
     height: 450px;
@@ -35,20 +16,17 @@ body{
     margin-right: auto;
 }
 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 70px;
+    }
+
 .list{
     margin-top: 2.5rem;
     margin-right: 0.5rem;
     margin-left: 0.5rem;
-}
-
- .block_row_select{
-     display: flex;
-     justify-content: center;
- }
-
-li{
-    list-style-type: none;
-}
+}    
 
 .radio{
     display: flex;
@@ -57,9 +35,9 @@ li{
     margin-bottom: 2.5rem;
 }
 
-
 .radio_input{
-    position: absolute;
+    position: relative;
+    right: 60px;
 }
 
 .radio_lable {
@@ -69,6 +47,22 @@ li{
     font-size: 1rem;
     color: rgb(68, 68, 68);
     cursor: pointer;
+    position: relative;
+    right: 85px;
+}
+
+.radio_block, .total{
+    font-family: 'Conv_BebasNeue Regular', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.radio_block_price{
+    font-size: 0.7rem;
+}
+
+.block_row_select{
+    display: flex;
+    justify-content: center;
 }
 
 .block_item{
@@ -77,14 +71,9 @@ li{
     font-size: 0.7rem;
 }
 
-.US{
-    font-size: 0.5rem;
-}
-
 .number{
     color: rgb(46, 46, 46);
     font-weight: bold;
-    
 }
 
 .block_select {
@@ -94,7 +83,22 @@ li{
     margin-top: 1rem;
 }
 
+li{
+    list-style-type: none;
+}
 
+span, p{
+    color: rgb(134, 134, 134);
+    font-stretch: ultra-condensed;
+}
+
+.colortext{
+    color: rgb(52, 225, 255);
+}
+
+.US{
+    font-size: 0.5rem;
+}
 
 .button{
     color: white;
@@ -104,22 +108,6 @@ li{
     width: 135px;
     height: 35px;
     border-radius: 17.5px;
-}
-
-
-.radio_input {
-    position: relative;
-    right: 60px;
-}
-
-.radio_lable{
-    position: relative;
-    right: 85px;
-}
-
-
-.radio_block_price{
-    font-size: 0.7rem;
 }
 
 .footer{
@@ -133,4 +121,3 @@ small{
     bottom: 5px;
     color: rgb(52, 225, 255)
 }
-
